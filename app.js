@@ -25,7 +25,7 @@ app.use('/posts', (req, res) => {
     res.status(200).json(data);
 });
 app.use('/', (req, res)=>{
-    res.status(200).send('I did it :) ')
+    res.status(404).send('API not supported :) ')
 });
 
 
